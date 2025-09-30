@@ -44,14 +44,15 @@ The system uses a **JSON-based user profile** as its dataset. Each profile conta
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/personalized-query-rewriter.git
-cd personalized-query-rewriter
+git clone github.com/tasaufmim/query-rewriter
+cd query-rewriter
 ```
 
 2. Install dependencies:
 
 ```bash
-pip install -r requirements.txt
+!pip install groq python-dotenv --quiet
+!pip install bert-score --quiet
 ```
 
 3. Create a `.env` file with your Groq API key:
@@ -60,7 +61,7 @@ pip install -r requirements.txt
 GROQ_API_KEY=your_api_key_here
 ```
 
-4. Prepare `user_profile.json` with the user profile data.
+4. Prepare `profile.json` with the user profile data.
 
 5. Run the chat loop:
 
@@ -84,10 +85,7 @@ Each rewritten query is evaluated using:
 User: best food to order
 Rewritten: Best high-protein Mexican or BBQ dishes in Austin, Texas
 BERTScore: 0.89
-Heuristic Eval: Personalized ✅
-Combined Confidence Score: 0.93
+Heuristic Evaluation: Personalized
 ```
 
 ---
-
-This README clearly explains **dataset, assumptions, setup, and evaluation** and is ready to be included in your repo.
