@@ -1,0 +1,35 @@
+{
+  "user_id": "u123",
+  "full_name": "Daniel Scott",
+  "ssn": "123-45-6789 (synthetic, not real)",
+  "demographics": {
+    "age": 34,
+    "gender": "Male",
+    "marital_status": "Married",
+    "location": "Austin, Texas"
+  },
+  "education_summary": [
+    "High School: Westlake High School (2008)",
+    "Bachelor's in Computer Science: University of Texas at Austin (2012)"
+  ],
+  "job_summary": [
+    "Software Engineer at Dell Technologies (2012–2016)",
+    "Senior Software Engineer at Google (2016–present)"
+  ],
+  "preferences": {
+    "activities": "cycling, reading sci-fi, gaming",
+    "clothing": "casual jeans, Nike sneakers",
+    "gadgets": "iPhone, MacBook Pro, smartwatch",
+    "food": "BBQ, Mexican, sushi",
+    "sports": "Basketball (Dallas Mavericks), Football (Dallas Cowboys)"
+  },
+  "search_preferences": "latest smartphones, fitness tips, family vacation spots",
+  "customer_support_history": "AT&T internet issues, Delta Airlines ticket change, Bank of America credit card help",
+  "interests": "AI research, space exploration, NBA news",
+  "movies": "sci-fi thrillers, documentaries, comedies",
+  "lifestyle": "Tech-savvy remote worker, spends evenings biking or gaming",
+  "food_habits": "Mostly home-cooked meals, occasional fast food, prefers high-protein diet",
+  "relationships": [
+    "Best friend: Jason Lee, 33, Graphic Designer, Houston, Texas, College roommate and close friend"
+  ]
+}
